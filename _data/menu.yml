@@ -3,20 +3,20 @@
 
 # Menu configuration file
 entries:
-  - title: about me!
+  - title: about me
     url: about
 
-  - title: contato
-    url: "mailto:someone@something.com"
+  - title: contact
+    url: "mailto:phoryne7@gmail.com"
 
-  - title: newsletter ⋆౨ৎ˚⟡˖ ࣪
+  - title: newsletter 🐈
     url: feed.xml
       
   - title: all posts
     post_list:
       limit: 5
       show_more: true
-      show_more_text: See archive...
+      show_more_text: archive
       show_more_url: archive.html
 
   - title: posts by category
@@ -25,7 +25,3 @@ entries:
       show_more: true
       show_more_text: See more posts...
       show_more_url: example2-archive.html
-
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
