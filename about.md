@@ -3,7 +3,7 @@ layout: page
 title: Your Name
 ---
 
-<img width="499" height="281" alt="image" src="https://github.com/user-attachments/assets/fc1591ea-16ce-4e29-8d3f-3a4ddcee6f59" />
+<img width="499" height="281" alt="image" src="https://media.tenor.com/2roX3uxz_68AAAAM/cat-space.gif" />
 
 **Phoryne**, 18 years old, passionate about all things IT.
 I specialize in Microsoft technologies such as **Active Directory**, **Entra ID / Azure**, **MECM** (formerly SCCM), and others. I also enjoy participating in **Capture the Flag (CTF)** challenges, and I plan to create my own private team soon to steadily develop my skills.
