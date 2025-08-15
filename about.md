@@ -3,7 +3,7 @@ layout: page
 title: Phoryne
 ---
 
-![image](https://media.tenor.com/2roX3uxz_68AAAAM/cat-space.gif)
+<img src="https://media.tenor.com/2roX3uxz_68AAAAM/cat-space.gif" alt="gif" style="max-width:100%; height:auto;">
 
 **Phoryne**, 18 years old, passionate about all things IT.
 I specialize in Microsoft technologies such as **Active Directory**, **Entra ID / Azure**, **MECM** (formerly SCCM), and others. I also enjoy participating in **Capture the Flag (CTF)** challenges, and I plan to create my own private team soon to steadily develop my skills.
