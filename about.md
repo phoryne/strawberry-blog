@@ -3,9 +3,11 @@ layout: page
 title: Your Name
 ---
 
-![](https://via.placeholder.com/800x800)
+<img width="499" height="281" alt="image" src="https://github.com/user-attachments/assets/fc1591ea-16ce-4e29-8d3f-3a4ddcee6f59" />
 
+**Phoryne**, 18 years old, passionate about all things IT.
+I specialize in Microsoft technologies such as **Active Directory**, **Entra ID / Azure**, **MECM** (formerly SCCM), and others. I also enjoy participating in **Capture the Flag (CTF)** challenges, and I plan to create my own private team soon to steadily develop my skills.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam nunc et dolor consectetur, quis interdum quam ullamcorper. Mauris tempor dolor id odio tristique, et dignissim ante condimentum. Donec tristique velit vitae orci venenatis, vel malesuada magna consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse condimentum, turpis efficitur suscipit ullamcorper, purus ligula interdum metus, vitae eleifend eros ligula a eros. Proin varius placerat efficitur. Nullam auctor quam eu arcu scelerisque, a scelerisque turpis hendrerit.
+I currently hold several certifications, including **eJPT**, **CRTP**, **CRTE**, **CRTM**, **CESP-ADCS**, and **CRTA**. I have also completed professional labs on Hack The Box, such as **FullHouse** and **APTLabs**. At the moment, I am working toward obtaining the **CARTP** certification.
 
-Donec ut cursus lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras finibus, risus vitae ullamcorper rutrum, eros dui tincidunt lorem, at consectetur metus diam et ipsum. Aliquam erat volutpat. Fusce porta tortor non tempus ornare. Donec finibus ultricies imperdiet. Quisque a nunc sit amet ex feugiat bibendum. Donec fringilla, mauris in imperdiet efficitur, dui ipsum viverra est, et auctor urna nisl ac tortor. Nam fermentum tortor ut sodales vulputate. 
+What drives me most is understanding technologies at their deepest design level—making sure no detail is overlooked.
