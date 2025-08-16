@@ -2,7 +2,7 @@ title: Phoryne's Blog # name of the site
 author: Phoryne # name of site's author
 email: phoryne7@gmail.com # email of site's author
 url: https://phoryne.red # root address of the site
-baseurl: "/my-blog" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: Blog dedicated to publishing articles all related, directly or indirectly, to computer science. # description of the site (multiple lines allowed)
   
 permalink: /:slug.html
