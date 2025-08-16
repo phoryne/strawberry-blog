@@ -10,7 +10,6 @@
 
 body[a="dark"] { @include dark-appearance; }
 
-
 @media (prefers-color-scheme: dark) {
   body[a="auto"] { @include dark-appearance; }
 }
@@ -19,12 +18,12 @@ body[a="dark"] { @include dark-appearance; }
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: #bc3a41; }
+html, body { background: #2b2b2b; } // gris anthracite
 
 html { height: 100%; }
 
 body {
-  color: #fdf0d5;
+  color: #e0e0e0; // gris clair doux
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
@@ -34,16 +33,16 @@ body {
 }
 
 a {
-  color: #5cd85a;
+  color: #4fa3d1; // bleu/gris sobre
   text-decoration: none;
 }
 
 a:hover {
-  color: #206b21;
+  color: #2a6b8c; // bleu plus foncé
 }
 
 a:visited {
-  color: yellow;
+  color: #b3a6d1; // violet/gris discret
 }
 
 .post-meta { text-align: right; }
@@ -55,35 +54,35 @@ hr { margin: 2rem 0; }
 p { margin: 1rem 0; }
 
 ul {
-  list-style-type: none; /* Remove os pontos padrão */
+  list-style-type: none;
   padding: 0;
 }
 
 ul li {
   position: relative;
-  padding-left: 20px; /* Adiciona espaço à esquerda para o símbolo */
+  padding-left: 20px;
 }
 
 ul li::before {
-  content: "⟡"; /* Define o símbolo desejado */
+  content: "⟡";
   position: absolute;
   left: 0;
-  color: #fdf0d5;
+  color: #9aa0a6; // gris doux
 }
 
 ul ul li {
-  padding-left: 50px; /* Espaço adicional para subitens */
+  padding-left: 50px;
 }
 
 ul ul li::before {
-  content: "♡"; /* Pode ser outro símbolo se desejar */
-  color: #fdf0d5; /* Cor diferente para subitens */
+  content: "♡";
+  color: #9aa0a6;
   padding-left: 20px;
 }
 
 li { margin: 0.4rem 0; }
 
-*:target { background: yellow; }
+*:target { background: #d9d9d9; }
 
 .w {
   max-width: 640px;
@@ -94,7 +93,7 @@ li { margin: 0.4rem 0; }
 hr {
   text-align: center;
   border: 0;
-  color: #000;
+  color: #666;
   &:before { content: '/////' }
   &:after { content: attr(data-content) '/////' }
 }
@@ -102,14 +101,14 @@ hr {
 table { width: 100%; }
 
 table, th, td {
-  border: thin solid #fdf0d5;
+  border: thin solid #9aa0a6;
   border-collapse: collapse;
   padding: 0.4rem;
 }
 
 code {
-  color: white;
-  background: #780000;
+  color: #e8e8e8;
+  background: #3c3c3c;
 }
 
 div.highlighter-rouge code {
@@ -121,7 +120,7 @@ div.highlighter-rouge code {
 
 blockquote {
   font-style: italic;
-  border: thin solid #780000;
+  border: thin solid #3c3c3c;
   padding: 1rem;
 
   p { margin: 0; }
@@ -137,24 +136,24 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: transparent; /* Optional: Background color */
-  padding: 20px; /* Optional: Padding for footer */
+  background-color: transparent;
+  padding: 20px;
 }
 
 .social-links {
-  list-style: none; /* Remove list styling */
+  list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 0.9375em; /* Space between icons, 15px = 0.9375em */
+  gap: 0.9375em;
 }
 
 .social-links a {
-  color: white; /* White icon color */
-  font-size: 1.5em; /* Icon size, 24px = 1.5em */
-  text-decoration: none; /* Remove underline */
+  color: #e0e0e0;
+  font-size: 1.5em;
+  text-decoration: none;
 }
 
 .social-links a:hover {
-  color: darkred; /* Light color on hover */
+  color: #4fa3d1; // cohérent avec les liens
 }
